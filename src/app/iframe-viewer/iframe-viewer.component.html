@@ -1,0 +1,9 @@
+<nav>
+    <button (click)="loadProject('http://localhost:4201')">Accenture Employee data</button>
+    <button (click)="loadProject('http://localhost:4202')">Components</button>
+    <button (click)="loadProject('http://localhost:4203')">Http</button>
+    <button (click)="loadProject('http://localhost:4204')">Forms</button>
+  </nav>
+  
+  <iframe [src]="currentProjectUrl" width="100%" height="1000px"></iframe>
+  
