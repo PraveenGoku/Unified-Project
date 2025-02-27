@@ -46,10 +46,10 @@
 /* CSS */
 .button-48 {
   appearance: none;
-  background-color: blue;
+  background-color: lightgray;
   border-width: 0;
   box-sizing: border-box;
-  color: orange;
+  color: red;
   cursor: pointer;
   display: inline-block;
   font-family: Clarkson,Helvetica,sans-serif;
@@ -72,7 +72,7 @@
   touch-action: manipulation;
   vertical-align: baseline;
   white-space: nowrap;
-  border-bottom: 5px solid orange;
+  border-bottom: 5px solid red;
 }
 
 .button-48:before {
@@ -107,14 +107,14 @@
 }
 
 .button-48:focus {
-  color: rgb(151, 22, 22);
+  color: orange;
   font-weight: 500;
-  border-bottom: 5px solid red;
+  border-bottom: 5px solid orange;
 }
 .button-48:hover{
-  color: red;
-  border-bottom: 5px solid red;
+  color: orange;
+  border-bottom: 5px solid orange;
 }
 nav{
-  background-color: blue;
+  background-color: lightgray;
 }
